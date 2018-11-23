@@ -1,6 +1,6 @@
 {
   "name": "is-extends-of",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "check class is extends of or equal another class",
   "homepage": "https://github.com/bluelovers/is-extends-of#readme",
   "bugs": {
