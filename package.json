@@ -1,0 +1,22 @@
+{
+  "name": "is-extends-of",
+  "version": "1.0.0",
+  "description": "check class is extends of or equal another class",
+  "homepage": "https://github.com/bluelovers/is-extends-of#readme",
+  "bugs": {
+    "url": "https://github.com/bluelovers/is-extends-of/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/is-extends-of.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx mocha --require ts-node/register"
+  }
+}
