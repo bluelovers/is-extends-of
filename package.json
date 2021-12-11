@@ -1,6 +1,6 @@
 {
   "name": "is-extends-of",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "check class is extends of or equal another class",
   "keywords": [
     "create-by-yarn-tool",

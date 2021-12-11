@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/bluelovers/is-extends-of/compare/is-extends-of@2.0.1...is-extends-of@2.0.2) (2021-12-11)
+
+
+### 🔖　Miscellaneous
+
+* . ([83883a8](https://github.com/bluelovers/is-extends-of/commit/83883a8bd9776f8afea9cf003a8b4bcc5d2761b6))
+
+
+
+
+
 ## 2.0.1 (2021-12-11)
 
 
