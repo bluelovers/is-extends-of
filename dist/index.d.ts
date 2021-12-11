@@ -5,7 +5,7 @@ export interface IConstructor<T extends unknown> {
 	new (...argv: any[]): T;
 	readonly prototype: T;
 }
-export declare function isExtendsOf<T extends IConstructor<any>>(classConstructor: T, targetConstructor: IConstructor<any>): classConstructor is T;
+export declare function isExtendsOf<T extends IConstructor<any>>(classConstructor: any, targetConstructor: T): classConstructor is T;
 export default isExtendsOf;
 
 export {};

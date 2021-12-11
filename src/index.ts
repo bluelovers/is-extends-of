@@ -12,8 +12,8 @@ export interface IConstructor<T extends unknown>
 const EMPTY_OBJ_PROTOTYPE = {}.__proto__;
 const FUNCTION_PROTOTYPE = Function.prototype;
 
-export function isExtendsOf<T extends IConstructor<any>>(classConstructor: T,
-	targetConstructor: IConstructor<any>,
+export function isExtendsOf<T extends IConstructor<any>>(classConstructor: any,
+	targetConstructor: T,
 ): classConstructor is T
 {
 	let prototype;
