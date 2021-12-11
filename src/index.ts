@@ -4,7 +4,7 @@
 
 export interface IConstructor<T extends unknown>
 {
-	new(...argv): T;
+	new(...argv: any[]): T;
 	readonly prototype: T;
 }
 
@@ -12,8 +12,8 @@ export interface IConstructor<T extends unknown>
 const EMPTY_OBJ_PROTOTYPE = {}.__proto__;
 const FUNCTION_PROTOTYPE = Function.prototype;
 
-function isExtendsOf<T extends IConstructor<any>>(classConstructor: T,
-	targetConstructor: IConstructor,
+export function isExtendsOf<T extends IConstructor<any>>(classConstructor: T,
+	targetConstructor: IConstructor<any>,
 ): classConstructor is T
 {
 	let prototype;
@@ -57,7 +57,4 @@ function isExtendsOf<T extends IConstructor<any>>(classConstructor: T,
 	return false;
 }
 
-isExtendsOf.isExtendsOf = isExtendsOf;
-isExtendsOf.default = isExtendsOf;
-
-export = isExtendsOf
+export default isExtendsOf

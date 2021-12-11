@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const t={}.__proto__,e=Function.prototype;function o(o,r){let n,p=o;if(!(o&&o.prototype&&r&&r.prototype))throw new TypeError("not a constructor object");if(o===r)return!0;do{if(n=Object.getPrototypeOf(p),n===r)return!0;if(null===n)return!1;p=n}while(n&&n!==e&&n!==t);return!1}exports.default=o,exports.isExtendsOf=o;
+//# sourceMappingURL=index.cjs.production.min.cjs.map
